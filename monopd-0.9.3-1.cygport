@@ -1,5 +1,0 @@
-DESCRIPTION="Monopoly-like game server"
-SRC_URI="http://www.robertjohnkaper.com/downloads/atlantik/${P}.tar.bz2"
-PATCH_URI="mirror://portage/games-server/${PN}/files/${P}-dosfix.patch"
-
-DIFF_EXCLUDES="stamp-h.in"

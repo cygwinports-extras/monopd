@@ -1,0 +1,7 @@
+DESCRIPTION="Monopoly-like game server"
+HOMEPAGE="http://unixcode.org/monopd/"
+SRC_URI="http://unixcode.org/downloads/monopd/${P}.tar.bz2"
+PATCH_URI="mirror://portage/games-server/${PN}/files/${P}-gcc43.patch
+           mirror://portage/games-server/${PN}/files/${P}-dosfix.patch"
+
+DIFF_EXCLUDES="stamp-h.in"
