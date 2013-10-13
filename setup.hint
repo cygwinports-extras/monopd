@@ -1,6 +1,0 @@
-category: Games
-requires: libcapsinetwork0 libgcc1 libstdc++6
-sdesc: "Monopoly-like game server"
-ldesc: "monopd is a dedicated game server daemon for playing 
-Monopoly-like board games. Clients connect to the server and communicate 
-using short commands and XML messages."
