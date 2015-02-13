@@ -1,16 +1,12 @@
 NAME="monopd"
-VERSION=0.9.3
-RELEASE=10
+VERSION=0.9.7
+RELEASE=1
 CATEGORY="Games"
 SUMMARY="Monopoly-like game server"
 DESCRIPTION="monopd is a dedicated game server daemon for playing Monopoly-
 like board games. Clients connect to the server and communicate using short
 commands and XML messages."
 HOMEPAGE="http://sourceforge.net/projects/monopd/"
-SRC_URI="mirror://gentoo/${NAME}-${VERSION}.tar.bz2"
-PATCH_URI="
-	mirror://portage/games-server/monopd/files/monopd-0.9.3-gcc43.patch
-	mirror://portage/games-server/monopd/files/monopd-0.9.3-dosfix.patch
-"
+SRC_URI="http://download.tuxfamily.org/gtkatlantic/monopd/monopd-${VERSION}.tar.gz"
 
 DIFF_EXCLUDES="stamp-h.in"
