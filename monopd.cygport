@@ -1,5 +1,5 @@
 NAME="monopd"
-VERSION=0.9.7
+VERSION=0.9.8
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Monopoly-like game server"
@@ -10,3 +10,11 @@ HOMEPAGE="http://sourceforge.net/projects/monopd/"
 SRC_URI="http://download.tuxfamily.org/gtkatlantic/monopd/monopd-${VERSION}.tar.gz"
 
 DIFF_EXCLUDES="stamp-h.in"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	mv ${D}/etc/monopd.conf{-dist,}
+	make_etc_defaults /etc/monopd.conf
+}
