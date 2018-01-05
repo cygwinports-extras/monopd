@@ -6,7 +6,7 @@ SUMMARY="Monopoly-like game server"
 DESCRIPTION="monopd is a dedicated game server daemon for playing Monopoly-
 like board games. Clients connect to the server and communicate using short
 commands and XML messages."
-HOMEPAGE="http://sourceforge.net/projects/monopd/"
+HOMEPAGE="http://gtkatlantic.gradator.net/"
 SRC_URI="http://download.tuxfamily.org/gtkatlantic/monopd/monopd-${VERSION}.tar.gz"
 
 DIFF_EXCLUDES="stamp-h.in"
